@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mentor</title>
+	<link rel="stylesheet" href="font\css\font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<!--header-->
+	<header id="head-color">
+		<div class="container">
+			<div class="row align-cnt res-head1-flex">
+				<div class="col-3 col-sm-5 col-md-5">
+					<div class="mentor">
+						<h1>MENTOR</h1>
+					</div>
+				</div>
+				<div class="col-7 res-display-sm-none res-display-md-none">
+					<nav class="anchor-list">
+						<ul class="list-links">
+							<li><a href="#Home" class="head-anchor-first">Home</a></li>
+							<li><a href="#About">About</a></li>
+							<li><a href="#Courses">Courses</a></li>
+							<li><a href="#Trianers">Trainers</a></li>
+							<li><a href="#Events">Events</a></li>
+							<li><a href="#Pricing">Pricing</a></li>
+							<li class="drop-1"><a href="#">Drop Down<i class="bi bi-chevron-down"></i></a>
+								<ul class="drop-2">
+									<li><a href="#">Drop Down1</a></li>
+									<li class="drop-3-hvr"><a href="#">Deep Drop Down<i class="bi bi-chevron-compact-right"></i></a>
+										<ul class="drop-3">
+											<li><a href="#">Drop Down1</a></li>
+											<li><a href="#">Drop Down2</a></li>
+											<li><a href="#">Drop Down3</a></li>
+											<li><a href="#">Drop Down4</a></li>
+											<li><a href="#">Drop Down5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Drop Down2</a></li>
+									<li><a href="#">Drop Down3</a></li>
+									<li><a href="#">Drop Down4</a></li>
+									<li><a href="#">Drop Down5</a></li>
+								</ul>
+							</li>
+							<li><a href="#Contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-2 col-sm-5 col-md-5 sec1-mnu-icon">
+					<a href="#" class="gs-btn">Get Started</a>
+				</div>
+				<div class="col-1 text-dark sec1-menubar"> 
+					<i class="bi bi-list" onClick="openMenuBar()" style="font-size: 25px;font-weight:900;"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="menubar d-none" id="menubar">
+		<div class="row" style="margin-top: 30px;">
+			<ul class="menubar-ul col-10" style="text-align: center;">
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#About">About</a></li>
+				<li><a href="#Courses">Courses</a></li>
+				<li><a href="#Trianers">Trainers</a></li>
+				<li><a href="#Events">Events</a></li>
+				<li><a href="#Pricing">Pricing</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+
+			<div class="col-1" style="text-align: end;">
+				<i class="bi bi-x-lg" onClick="menubarClose()"></i>
+			</div>
+		</div>
+	</section>
+
+
+	<!--section-1-->
+	<section id="Home">
+		<div id="sec1-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="sec1-cnt res-sec1-cnt">
+							<h1>Learning Today,<br>
+							Leading Tomorrow</h1>
+							<p>We are team of talented designers making websites with Bootstrap</p>
+								<div class="gs-btn-2 res-sec1-btn">
+									<a href="#">Get Started</a>
+								</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section-2-->
+	<section id="About">
+		<div id="sec2-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-sm-12 res-order-2 col-md-12">
+						<div class="sec2-cnt">
+							<h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="sec2-list">
+							<li><i class="bi bi-check-circle"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+							<li><i class="bi bi-check-circle"></i><span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+							<li><i class="bi bi-check-circle"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+						</div>
+						<div class="sec2-para">
+							<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+						</div>
+					</div>
+					
+					<div class="col-6 col-sm-12 res-order-1 col-md-12">
+						<div class="sec2-img">
+							<img src="image/about.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section-3-->
+	<section>
+		<div id="sec3-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-3 col-sm-6 col-md-6 res-sec3-padding">
+						<div class="sec3-cnt">
+							<span id="scroll_one">1232</span>
+							<p>Students</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-6 col-md-6 res-sec3-padding">
+						<div class="sec3-cnt">
+							<span id="scroll_two">64</span>
+							<p>Courses</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-6 col-md-6 res-sec3-padding">
+						<div class="sec3-cnt">
+							<span id="scroll_three">42</span>
+							<p>Events</p>
+						</div>
+					</div>
+					<div class="col-3 col-sm-6 col-md-6 res-sec3-padding">
+						<div class="sec3-cnt">
+							<span id="scroll_Four">15</span>
+							<p>Trainers</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section-4-->
+	<section>
+		<div id="sec4-bg">
+			<div class="container">
+				<div class="row sec4-center">
+					<div class="col-4 col-override-1 col-sm-12 res-sec4-padding col-md-12">
+						<div class="sec4-cnt1 sec4-cnt-center">
+							<h1>Why Choose Mentor?</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam.</p>
+							<div class="sec4-btn">
+								<a href="#">Learn More<i class="bi bi-arrow-right-short"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-override-2 col-sm-12 res-sec4-padding col-md-12">
+						<div class="sec4-cnt2">
+							<div class="icon-bg">
+								<i class="bi bi-file-earmark-text"></i>
+							</div>
+							<h2>Corporis voluptates sit</h2>
+							<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+						</div>
+					</div>
+					<div class="col-2 col-override-2 col-sm-12 res-sec4-padding col-md-12">
+						<div class="sec4-cnt2">
+							<div class="icon-bg">
+								<i class="bi bi-box"></i>
+							</div>
+							<h2>Ullamco laboris ladore</h2>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+						</div>
+					</div>
+					<div class="col-2 col-override-2 col-sm-12 res-sec4-padding col-md-12">
+						<div class="sec4-cnt2">
+							<div class="icon-bg">
+								<i class="bi bi-images"></i>
+							</div>
+							<h2>Labore consequatur</h2>
+							<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>		
+	<!--section-5-->
+	<section>
+		<div id="sec5-bg">
+			<div class="container">
+				<div class="row">
+					<!--1-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-shop-window" style="color:orange"></i><span>Lorem Ipsum</span>
+						</div>
+					</div>
+					<!--2-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-clipboard-data" style="color:blue"></i><span>Dolor Sitema</span> 
+						</div>
+					</div>
+					<!--3-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-calendar4" style="color:pink"></i><span>Sed perspiciatis</span>
+						</div>
+					</div>
+					<!--4-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-brush" style="color:purple"></i><span>Magni Dolores</span> 
+						</div>
+					</div>
+					<!--5-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-database" style="color:powderblue"></i><span>Nemo Enim</span> 
+						</div>
+					</div>
+					<!--6-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-dash-circle" style="color:orange"></i><span>Eiusmod Tempor</span> 
+						</div>
+					</div>
+					<!--7-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-file-earmark-richtext" style="color:lightgreen"></i><span>Midela Teren</span> 
+						</div>
+					</div>
+					<!--8-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-house" style="color:blue"></i><span>Pira Neve</span> 
+						</div>
+					</div>
+					<!--9-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="fa fa-anchor" style="color:brown"></i><span>Dirada Pack</span> 
+						</div>
+					</div>
+					<!--10-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-music-note" style="color:pink"></i><span>Moton Ideal</span> 
+						</div>
+					</div>
+					<!--11-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-wifi" aria-hidden="true" style="color:red"></i><span>Verdo Park</span> 
+						</div>
+					</div>
+					<!--12-->
+					<div class="col-3 sec5-padding-bottom col-sm-12 res-sec5-padding col-md-4">
+						<div class="sec5-icon">
+						<i class="bi bi-fingerprint" style="color:green"></i><span>Flavor Nivelanda</span> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section-6-->
+	<section id="Courses">
+		<div id="sec6-bg">
+			<div class="container">
+				<div class="col-12 col-sm-12 col-md-12 sec6-heading">
+					<h5>COURSES</h5>
+					<h1>POPULAR COURSES</h1>
+				</div>
+				<div class="row res-align-items">
+					<div class="col-4 col-sm-12 sec6-col-padding col-md-6">
+						<div class="sec6-img">
+							<img src="image/course-1.jpg">
+								<div class="sec6-cnt1">
+									<span>Web Development</span>
+									<strong>$169</strong>
+								</div>
+								<div class="sec6-cnt2">
+									<h1>Website Design</h1>
+									<p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+								</div>
+								<div class="sec6-cnt3">
+									<div class="trainer-image">
+										<img src="image/trainer-1.jpg"><span>Antonio</span>
+									</div>
+									<div class="trainer-feedback">
+										<i class="bi bi-person"></i><span>50</span>
+										<i class="bi bi-heart"></i><span>65</span>
+									</div>
+								</div>
+						</div>
+					</div>
+						<div class="col-4 col-sm-12 sec6-col-padding col-md-6">
+						<div class="sec6-img">
+							<img src="image/course-2.jpg">
+								<div class="sec6-cnt1">
+									<span>Marketing</span>
+									<strong>$250</strong>
+								</div>
+								<div class="sec6-cnt2">
+									<h1>Search Engine Optimization</h1>
+									<p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+								</div>
+								<div class="sec6-cnt3">
+									<div class="trainer-image">
+										<img src="image/trainer-2.jpg"><span>Lana</span>
+									</div>
+									<div class="trainer-feedback">
+										<i class="bi bi-person"></i><span>35</span>
+										<i class="bi bi-heart"></i><span>42</span>
+									</div>
+								</div>
+						</div>
+					</div>
+						<div class="col-4 col-sm-12 sec6-col-padding col-md-6">
+						<div class="sec6-img">
+							<img src="image/course-3.jpg">
+								<div class="sec6-cnt1">
+									<span>Content</span>
+									<strong>$180</strong>
+								</div>
+								<div class="sec6-cnt2">
+									<h1>Copywriting</h1>
+									<p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
+								</div>
+								<div class="sec6-cnt3">
+									<div class="trainer-image">
+										<img src="image/trainer-3.jpg"><span>Brandon</span>
+									</div>
+									<div class="trainer-feedback">
+										<i class="bi bi-person"></i><span>20</span>
+										<i class="bi bi-heart"></i><span>85</span>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--section-7-->
+	<section id="Trianers">
+		<div id="sec7-bg">
+			<div class="container">
+				<div class="row res-align-items">
+					<div class="col-4 col-sm-12 sec7-col-padding col-md-6">
+						<div class="sec7-img">
+							<img src="image/trainer-1.jpg">
+							<div class="sec7-cnt">
+								<h4>Walter White</h4>
+								<h6>Web Development</h6>
+								<p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+							</div>
+							<div class="sec7-icons">
+								<i class="bi bi-twitter"></i>
+								<i class="bi bi-facebook"></i>
+								<i class="bi bi-instagram"></i>
+								<i class="bi bi-linkedin"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-sm-12 sec7-col-padding col-md-6">
+						<div class="sec7-img">
+							<img src="image/trainer-2.jpg">
+							<div class="sec7-cnt">
+								<h4>Sarah Jhinson</h4>
+								<h6>Marketing</h6>
+								<p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+							</div>
+							<div class="sec7-icons">
+								<i class="bi bi-twitter"></i>
+								<i class="bi bi-facebook"></i>
+								<i class="bi bi-instagram"></i>
+								<i class="bi bi-linkedin"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-sm-12 sec7-col-padding col-md-6">
+						<div class="sec7-img">
+							<img src="image/trainer-3.jpg">
+							<div class="sec7-cnt">
+								<h4>William Anderson</h4>
+								<h6>Content</h6>
+								<p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+							</div>
+							<div class="sec7-icons">
+								<i class="bi bi-twitter"></i>
+								<i class="bi bi-facebook"></i>
+								<i class="bi bi-instagram"></i>
+								<i class="bi bi-linkedin"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section-8-->
+	<section id="Contact">
+		<div id="sec8-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-sm-12 res-sec8-padding col-md-6">
+						<div class="sec8-cnt-1">
+							<h1>Mentor</h1>
+							<address>
+								A108 Adam Street<br>
+								New York, NY 535022</br>
+								United States
+							</address>
+							<p><span>Phone:</span>+1 5589 55488 55</p>
+							<p><span>Email:</span>info@example.com</p>
+						</div>
+					</div>
+					<div class="col-2 col-sm-12 res-sec8-padding col-md-6">
+						<div class="sec8-cnt-2">
+							<h1>Useful Links</h1>
+							<div class="sec8-cnt-list">
+								<ul class="sec8-list">
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Home</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">About us</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Services</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Terms of services</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Privacy policy</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-sm-12 res-sec8-padding col-md-6">
+						<div class="sec8-cnt-2">
+							<h1>Our Services</h1>
+							<div class="sec8-cnt-list">
+								<ul class="sec8-list">
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Web Design</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Web Development</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Product Manageer</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Marketing</a></span></li>
+									<li><i class="fa fa-chevron-right" aria-hidden="true"></i><span><a href="#">Graphics Design</a></span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-sm-12 res-sec8-padding col-md-6">
+						<div class="sec8-cnt-3">
+							<h1>Join Our Newsletter</h1>
+							<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+							<form class="sec8-cnt-form">
+								<input class="input-field-sec8" type="email">
+								<a href="#">Subscribe</a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<script src="./index.js"></script>					
+</body>					
+</html>
