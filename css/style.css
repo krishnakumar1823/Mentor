@@ -6,7 +6,9 @@
 html {
 	scroll-behavior: smooth;
 }
-
+#Home,#About,#Courses,#Trianers,#Events,#Pricing,#Contact{
+	padding-top: 30px;
+}
 /* menubar */
 .sec1-menubar{
 	display: none;

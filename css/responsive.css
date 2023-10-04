@@ -169,9 +169,6 @@
 		width:100% !important;
 		padding:0 10px;
 	}
-	.res-align-items{
-		justify-content:center;
-	}
 	/*header*/
 	.res-head1-flex{
 		display:flex;
