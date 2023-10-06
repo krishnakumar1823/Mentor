@@ -80,7 +80,7 @@
 		font-size:20px;
 	}
 	.res-sec1-cnt .res-sec1-btn{
-		width:35%;
+		width:40%;
 	}
 	.res-sec1-sm-mnu-icon i{
 		font-size:25px;
@@ -230,4 +230,10 @@
 		padding:15px 15px;
 	}
 	
+}
+
+@media (min-width:992px){
+	.sec1-menubar{
+		display: none !important;
+	}
 }
