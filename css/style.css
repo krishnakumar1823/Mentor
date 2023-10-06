@@ -6,19 +6,17 @@
 html {
 	scroll-behavior: smooth;
 }
-#Home,#About,#Courses,#Trianers,#Events,#Pricing,#Contact{
+#About,#Courses,#Trianers,#Events,#Pricing,#Contact{
 	padding-top: 30px;
 }
 /* menubar */
-.sec1-menubar{
-	display: none;
-}
 .menubar{
 	position: fixed;
 	top:0px;
 	right:0px; 
 	background-color:white;
 	height:100vh;
+	z-index: 9999;
 }
 .menubar-ul {
 	margin-top: 30px;
@@ -103,8 +101,8 @@ html {
 }
 /*header*/
 #head-color{
-	background-color:white;
-	padding:10px 0;
+	background-color:whitesmoke;
+	padding:15px 0;
 	position:sticky;
 	top:0;
 	transition:all .3s ease-in-out;
